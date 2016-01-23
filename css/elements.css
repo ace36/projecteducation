@@ -1,0 +1,360 @@
+html, body{
+	margin: 0;
+	padding: 0px;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+h1{
+	font-family: Oswald;
+	font-size: 58px;
+}
+
+h2{
+	font-family: Oswald;
+	font-size: 48px;
+}
+
+h3{
+	font-family: Oswald;
+	font-size: 36px;
+}
+
+h4{
+	font-family: Montserrat;
+	font-size: 24px;
+}
+
+h5{
+	font-family: Montserrat;
+	font-size: 14px;
+}
+
+h6{
+	font-family: Montserrat;
+	font-size: 12px;
+}
+
+.zero-margin{
+	margin: 0;
+}
+
+.fweight-300{
+	font-weight: 300;
+}
+
+.fweight-400{
+	font-weight: 400;
+}
+
+.fweight-700{
+	font-weight: 700;
+}
+
+.montserrat-text{
+	font-family: Montserrat;
+}
+
+.oswald-text{
+	font-family: Oswald;
+}
+
+.font12{
+	font-size: 12px;
+}
+
+.font14{
+	font-size: 14px;
+}
+
+.font16{
+	font-size: 16px;
+}
+
+.font18{
+	font-size: 18px;
+}
+
+.font24{
+	font-size: 24px;
+}
+
+.white-text{
+	color: white;
+}
+
+.blue-text{
+	color: #4671fb;
+}
+
+.grey-text{
+	color: #e8e8e8;
+}
+
+.lowgrey-text{
+	color: #ccc;
+}
+
+.midgrey-text{
+	color: #888;
+}
+
+.darkgrey-text{
+	color: #333;
+}
+
+.black-text{
+	color: black;
+}
+
+.light-btn{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 12px;
+	color: #4671fb;
+	background-color: #f4f4f4;
+	border-radius: 3px;
+	padding: 7px 12px 7px 12px;
+	text-decoration: none;
+	font-weight: 700;
+	box-shadow: 0px 2px 0px #ddd;
+}
+
+.light-btn:hover{
+	background-color: #ededed;
+	transition: background-color .15s ease-in-out;
+}
+
+.light-btn:active{
+	background-color: #ddd;
+}
+
+.light-input{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	border-radius: 3px;
+	padding: 10px 12.5px 10px 12.5px;
+	width: 200px;
+	border: 1px solid #ccc;
+}
+
+.light-input:focus{
+	outline: none;
+	border: 1px solid #4671fb;
+	transition: border .3s ease-in-out;
+	color: #4671fb;
+}
+
+.light-input::-webkit-input-placeholder{
+	color: #ddd;
+}
+
+.dark-btn{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 12px;
+	color: #f4f4f4;
+	background-color: #4671fb;
+	border-radius: 3px;
+	padding: 7px 12px 7px 12px;
+	text-decoration: none;
+	font-weight: 700;
+	box-shadow: 0px 2px 0px #3657bf;
+}
+
+.dark-btn:hover{
+	background-color: #416aec;
+	transition: background-color .15s ease-in-out;
+}
+
+.dark-btn:active{
+	background-color: #3657bf;
+}
+
+input[type="submit"]{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 12px;
+	color: #f4f4f4;
+	background-color: #4671fb;
+	border-radius: 3px;
+	padding: 7px 12px 7px 12px;
+	text-decoration: none;
+	font-weight: 700;
+	box-shadow: 0px 2px 0px #3657bf;
+	outline: none;
+	border: none;
+}
+
+input[type="submit"]:hover{
+	background-color: #416aec;
+	transition: background-color .15s ease-in-out;
+}
+
+input[type="submit"]:active{
+	background-color: #3657bf;
+}
+
+p{
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+}
+
+.fab{
+	width:50px;
+	height:50px;
+	border-radius: 25px;
+	background-color: #f2f2f2;
+	-webkit-box-shadow: 0px 2px 7px #aaa;
+	-moz-box-shadow:    0px 2px 7px #aaa;
+	box-shadow:         0px 2px 7px #aaa;
+	z-index: 99;
+	text-align: center;
+}
+
+.fab:hover{
+	-webkit-box-shadow: 0px 3px 11px #aaa;
+	-moz-box-shadow:    0px 3px 11px #aaa;
+	box-shadow:         0px 3px 11px #aaa;
+	transition: box-shadow .15s ease-in;
+    -moz-transition: box-shadow .15s ease-in;
+    -webkit-transition: box-shadow .15s ease-in;
+}
+
+.logo-part-one{
+	font-family: Montserrat;
+	font-weight: 300;
+	font-size: 24px;
+	color: #4671fb;
+}
+
+.logo-part-two{
+	font-family: Montserrat;
+	font-weight: 300;
+	font-size: 24px;
+	background: -webkit-linear-gradient(left, #e2e2e2, #bbb);
+  	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+}
+
+.raised-highlight{
+	background-color: #f2f2f2;
+	padding: 0px 20px 0px 20px;
+	color: #4671FB; border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 0px #e2e2e2;
+  	-moz-box-shadow:    0px 2px 0px #e2e2e2;
+  	box-shadow:         0px 2px 0px #e2e2e2;
+}
+
+.light-link{
+	text-decoration: none;
+	color: #555;
+}
+
+.light-link:hover{
+	color: #4671fb;
+}
+
+.red-btn{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 12px;
+	color: #f8f8f8;
+	background-color: #FA1111;
+	border-radius: 3px;
+	padding: 7px 12px 7px 12px;
+	text-decoration: none;
+	font-weight: 700;
+	box-shadow: 0px 2px 0px #C21F1F;
+}
+
+.red-btn:hover{
+	background-color: #E81A1A;
+	transition: background-color .15s ease-in-out;
+}
+
+.red-btn:active{
+	background-color: #C21F1F;
+}
+
+.course-card{
+	width: 202.5px;
+	height: auto;
+	margin-right: 10px;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 2px 0px #e2e2e2;
+  	-moz-box-shadow:    0px 2px 0px #e2e2e2;
+  	box-shadow:         0px 2px 0px #e2e2e2;
+  	float: left;
+  	margin-bottom: 20px;
+  	padding: 18px 20px 18px 20px;
+  	overflow: hidden;
+}
+
+.course-card-all{
+	width: 240px;
+	height: 300px;
+	background-color: #4671fb;
+	margin-right: 10px;
+	float: left;
+	margin-bottom: 20px;
+	background-image: url("http://bestinspired.com/wp-content/uploads/2015/07/beautiful-landscape-wallpapers.jpg");
+	background-size: cover;
+}
+
+.gradecard{
+	width: 780px;
+	height: 50px;
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 2px 0px #e2e2e2;
+  	-moz-box-shadow:    0px 2px 0px #e2e2e2;
+  	box-shadow:         0px 2px 0px #e2e2e2;
+  	margin-bottom: 10px;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.diag-course{
+	height: 0;
+	border-width: 40px 240px 0px 0px;
+	border-style: solid;
+	border-color: #f2f2f2 transparent #f2f2f2 transparent;
+	margin-bottom: 20px;
+	z-index: 0;
+}
+
+.course-top-info{
+	height: 180px;
+	background-color: #f2f2f2;
+	font-size: 18px;
+	transition: height .15s ease-out, font-size .15s ease-out;
+	padding-top: 20px;
+	font-family: montserrat;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.course-top-info:hover{
+	height:100px;
+	font-size: 22px;
+	transition: height .15s ease-out, font-size .15s ease-out;
+}
